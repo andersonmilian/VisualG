@@ -6,3 +6,10 @@ Aqui irei colocar todos os códigos praticados na **UC09 - Lógica de Programaç
 ## A Tela Principal do VisualG
 ![60443652-12202c00-9bf2-11e9-947c-614f8ac883f0](https://user-images.githubusercontent.com/52283944/60517445-16158200-9cb6-11e9-9afe-11c1a4e8c06c.png)
 
+## Os menus do VisualG
+
+- Arquivos
+- Editar
+- Manutenção
+
+O programa é muito simples e possui uma interface amigável. Para completar, ele está totalmente em português, o que ajuda muito quem não tem familiaridade com o inglês.
