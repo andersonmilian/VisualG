@@ -13,7 +13,7 @@ Contém os comandos mais utilizados no Visualg (estes comandos também podem ser
 ### Barras de Ferramentas
 ![image002](https://user-images.githubusercontent.com/52283944/60590976-bbdaf680-9d73-11e9-9fe2-27bc66051409.gif)
 
-1 - **Novo (Ctrl-N)** - Cria um novo "esqueleto" de algoritmo, substituindo o texto existente no editor. Se este tiver sido modificado, o Visualg pedirá sua confirmação para salvá-lo antes que seja sobreposto.
+1 - **Novo (Ctrl-N)** : Cria um novo "esqueleto" de algoritmo, substituindo o texto existente no editor. Se este tiver sido modificado, o Visualg pedirá sua confirmação para salvá-lo antes que seja sobreposto.
 
 2 - **Abrir (Ctrl-A)** - Abre um algoritmo anteriormente gravado, substituindo o texto existente no editor. Se este tiver sido modificado, o Visualg pedirá sua confirmação para salvá-lo antes que seja sobreposto.
 
@@ -31,4 +31,42 @@ Contém os comandos mais utilizados no Visualg (estes comandos também podem ser
 
 9 - **Inserir** um bloco – Insere um bloco arquivado no local do cursor.
 
-10 e 11 - Desfazer e refazer – Desfaz e refaz ação criada no editor de texto.
+10 e 11 - **Desfazer e refazer** – Desfaz e refaz ação criada no editor de texto.
+
+12 - **Localizar** – Abre uma janela para você digitar a palavra que deseja localizar no Editor de textos.
+
+13 - **Substituir** – Abre uma janela para você poder digitar a palavra que deseja localizar e substituir no Editor de textos.
+
+14 - **Corrigir Indentação (Ctrl-G)** - Corrige automaticamente a indentação do "código-fonte", colocando os comandos dentro de uma estrutura de 3 colunas à direita da coluna inicial da estrutura conforme a configuração padrão.
+
+15 - **Numerar Linhas** - Liga/desliga a exibição dos números das linhas na área à esquerda do editor. A linha e coluna do editor em que o cursor está em um determinado momento também são mostradas na primeira parte da barra de status, situada na parte inferior da tela. Os números de linhas, caso ligados, são desligados durante a execução do algoritmo por motivos técnicos, mas são ligados de volta ao fim do "programa".
+
+16 - **Mostra Variáveis Modificadas** - Liga/desliga a exibição da variável que está sendo modificada. Como o número de variáveis pode ser grande, muitas podem estar fora da janela de visualização; quando esta característica está ligada, o programa rola a grade de variáveis de modo que aquela que está sendo modificada no momento fique visível. Útil quando se está executando o algoritmo passo a passo. Por questões de performance, o valor padrão desta característica é desligada quando o algoritmo está sendo executado automaticamente, mas se você clicar este botão pode executar o algoritmo automaticamente com a exibição ligada. O valor volta automaticamente para desligada ao fim da execução.
+
+17 - **Restaura a tela inicial do Visualg** – Retorna a tela original do programa.
+
+## Barra de Execução de Algoritmos
+
+![image005](https://user-images.githubusercontent.com/52283944/60671918-92d96500-9e4a-11e9-89be-ae13ff294218.jpg)
+
+1 - **Executar** (F9) - **Inicia** (ou continua) a execução automática do algoritmo.
+
+2 - **Tempo por linha** (shift + F9) – Executa o algoritmo linha por linha automaticamente determinado por um tempo escolhido pelo o usuário.
+
+3 - **Passo** (F8) - Inicia (ou continua) a execução do algoritmo linha por linha, dando ao usuário oportunidade de acompanhar o fluxo do programa, examinar variáveis, etc.
+
+4 - **Parar** (Ctrl-F2) - Termina imediatamente a execução do algoritmo. Este botão fica desabilitado quando o algoritmo não está sendo executado.
+
+5 - **Marca e Desmarca um Breakpoints** (F5) – Cria pontos de parada. Selecione a linha que deseja criar um ponto de parada na hora de execução do algoritmo e pressione o Breakpoints surgirá uma linha marrom e um marcador do lado esquerdo para indicar o ponto de parada. Para desmarcar o ponto de parada basta selecionar a linha que possui o breakpoint e clicar no mesmo. O breakpoints não funciona no modo passo a passo e para continuar o algoritmo depois de uma parada pressione novamente o F9 ou o botão Executar.
+
+6 - **Desmarca todos os BreakPoints** (CTRL+F5)
+
+7 - **Executa em Modo Dos** – Quando ativado durante a execução do algoritmo ele executa o algoritmo em uma janela em modo dos.
+
+8 - **Gerador valores** – Substitui digitação do usuário por um sistema de geração aleatória de valores numéricos e caracter (este comando não afeta a leitura de variáveis do tipo lógico - com certeza uma coisa pouco usual...). Gera números e caracteres aleatoriamente, muito útil para não perder tempo pensando o que digitar, você escolhe o inicio e o fim dos valores e se for valores com casas decimais é só escolher quantas casas decimal você quer.
+
+9 - **Perfil** (F7) - Mostra, após a execução de um algoritmo, quantas vezes cada linha foi executada. Útil para a análise de eficiência de um algoritmo, como por exemplo, nos métodos de classificação.
+
+10 - **Pilha** (CTRL+F3) - Mostra a pilha de ativação do programa (call stack), com o nome dos procedimentos e funções chamados, nome, tipo e valor dos parâmetros.
+
+11 - **Ajuda on-line** (F1).
