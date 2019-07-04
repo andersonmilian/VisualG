@@ -69,4 +69,4 @@ Contém os comandos mais utilizados no Visualg (estes comandos também podem ser
 
 10 - **Pilha** (CTRL+F3) - Mostra a pilha de ativação do programa (call stack), com o nome dos procedimentos e funções chamados, nome, tipo e valor dos parâmetros.
 
-11 - __Ajuda on-line__ (F1).
+11 - **Ajuda on-line** (F1).
