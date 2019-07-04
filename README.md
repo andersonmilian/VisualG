@@ -1,4 +1,4 @@
-# VisualG
+# VisualG 😎
 ![VisualG_Version](https://img.shields.io/badge/VisualG-3.0-orange.svg)
 
 Aqui irei colocar todos os códigos praticados na **UC09 - Lógica de Programação**, que estudei no Senac VPR 
@@ -70,3 +70,22 @@ Contém os comandos mais utilizados no Visualg (estes comandos também podem ser
 10 - **Pilha** (CTRL+F3) - Mostra a pilha de ativação do programa (call stack), com o nome dos procedimentos e funções chamados, nome, tipo e valor dos parâmetros.
 
 11 - __Ajuda on-line__ (F1).
+
+## Visualizador De Variáveis
+
+Contém uma grade onde são mostrados: Escopo da variável (Global quando nome da variável for global ou o nome da função ou Procedimento quando for local). O Nome da variável (com índice ou índices, caso seja um elemento de um vetor), seu Tipo ("R" para Real, “I” para Inteiro, "C" para literal e "L" para lógico), e o seu Valor corrente. A versão atual do Visualg permite até 500 variáveis (cada elemento de um vetor conta como uma variável).
+Também, de acordo com o tipo de parâmetro a cor no grid muda, e para os parâmetros passados por referência. Há uma seta que mostra o nome da variável que eles representam fora do subprograma. Isto tudo, naturalmente, só pode ser visto se executarmos o algoritmo passo a passo...
+
+![image006](https://user-images.githubusercontent.com/52283944/60673548-5c054e00-9e4e-11e9-9b79-067ed16c56ad.gif)
+
+## Simulador de Saída
+
+Mostra o resultado do algoritmo, invés de executar no modo dos, você pode verificar a saída do algoritmo aqui no simulador de saída.
+
+![image007](https://user-images.githubusercontent.com/52283944/60673566-69223d00-9e4e-11e9-89f3-69c53b055ced.jpg)
+
+## A Barra De Status
+
+Mostra o resultado do algoritmo, invés de executar no modo dos, você pode verificar a saída do algoritmo aqui no simulador de saída.
+
+![image008](https://user-images.githubusercontent.com/52283944/60673608-8525de80-9e4e-11e9-96db-751e2f197982.gif)
