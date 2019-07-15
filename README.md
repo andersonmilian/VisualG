@@ -89,3 +89,6 @@ Mostra o resultado do algoritmo, invés de executar no modo dos, você pode veri
 Mostra o resultado do algoritmo, invés de executar no modo dos, você pode verificar a saída do algoritmo aqui no simulador de saída.
 
 ![image008](https://user-images.githubusercontent.com/52283944/60673608-8525de80-9e4e-11e9-96db-751e2f197982.gif)
+
+
+![NextEmbellishedHerald-size_restricted](https://user-images.githubusercontent.com/52283944/61215359-05ff9880-a6e1-11e9-84d8-2f11ec307315.gif)
